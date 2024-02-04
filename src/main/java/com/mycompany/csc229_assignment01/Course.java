@@ -41,10 +41,10 @@ public class Course {
     private int id;
 
     // Default constructor
-    public Course();{
+    public Course() {
         id = 0;
-        name = "Dan"
-        code = "Smith"
+        name = "Dan";
+        code = "2000";
     }
 
     // Overloaded constructor

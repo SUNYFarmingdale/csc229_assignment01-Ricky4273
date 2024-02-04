@@ -3,12 +3,13 @@ package com.mycompany.csc229_assignment01;
 
 /**
  *
- * @author MoaathAlrajab
+ * @author Ricky Wang
  */
 public class NewClass {
     
      public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
+         Course defaultCourse = new Course();
+         Course overloadedCourse = new Course("789521", "")
+     }
     
 }
