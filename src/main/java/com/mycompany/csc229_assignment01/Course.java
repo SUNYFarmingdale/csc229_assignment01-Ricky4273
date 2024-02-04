@@ -43,7 +43,7 @@ public class Course {
     // Default constructor
     public Course() {
         id = 0;
-        name = "Dan";
+        name = "Intro Course";
         code = "2000";
     }
 
