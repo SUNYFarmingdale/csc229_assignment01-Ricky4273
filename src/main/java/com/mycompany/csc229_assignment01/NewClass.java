@@ -19,9 +19,7 @@ public class NewClass {
          defaultCourse.setID(9234);
          defaultCourse.setName("European History");
          defaultCourse.setCode("EH229");
-
          // prints out updated default course
          System.out.println(defaultCourse);
      }
-    
 }

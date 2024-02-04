@@ -28,8 +28,6 @@ The Course class should have:
 
 package com.mycompany.csc229_assignment01;
 
-import javax.xml.namespace.QName;
-
 /**
  *
  * @author Ricky Wang
@@ -77,6 +75,11 @@ public class Course {
 
     public void setCode(String code) {
         this.code = code;
+    }
+
+    // method
+    public String toString() {
+        return "ID: " + this.id + " Name: " + this.name + " Code: " + this.code;
     }
 
 }
