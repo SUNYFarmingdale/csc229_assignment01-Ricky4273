@@ -22,7 +22,7 @@ The Course class should have:
  - Push the code to GitHub.
 
  - Submit the Github link here (make sure it is a public repo).
-
+ - https://github.com/SUNYFarmingdale/csc229_assignment01-Ricky4273
 
  */
 
