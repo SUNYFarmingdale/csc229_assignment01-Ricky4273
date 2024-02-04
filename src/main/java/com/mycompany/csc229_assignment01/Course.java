@@ -28,13 +28,33 @@ The Course class should have:
 
 package com.mycompany.csc229_assignment01;
 
+import javax.xml.namespace.QName;
+
 /**
  *
- * @author MoaathAlrajab
+ * @author Ricky Wang
  */
+// instance variables
 public class Course {
     private String name;
+    private String code;
+    private int id;
 
+    // Default constructor
+    public Course();{
+        id = 0;
+        name = "Dan"
+        code = "Smith"
+    }
+
+    // Overloaded constructor
+    public Course(int id, String name, String code ) {
+        this.id = id;
+        this.name = name;
+        this.code = code;
+    }
+
+    // Getters and setter for name
     public String getName() {
         return name;
     }
@@ -42,4 +62,21 @@ public class Course {
     public void setName(String name) {
         this.name = name;
     }
+    // Getter and setter for id
+    public int getID(){
+        return id;
+    }
+
+    public void setID(int id) {
+        this.id = id;
+    }
+    // Getter and setter for code
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
 }
